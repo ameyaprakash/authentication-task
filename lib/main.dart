@@ -1,11 +1,14 @@
 import 'package:auth_task/view/login_screen/login_screen.dart';
 import 'package:flutter/material.dart';
 
+
+String? userEmail ="";
+String? userPass= "";
+
 void main(List<String> args) {
   runApp(MyApp());
 }
-String? userEmail ="";
-String? userPass= "";
+
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
